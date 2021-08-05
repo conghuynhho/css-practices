@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2>SLIDE SHOW</h2>
+  <div class="slide-show">
+    <div class="slide-item fade">
+      <img src="http://source.unsplash.com/1600x900/?people" alt="people">
+      <div class="text">People</div>
+    </div>
+    <div class="slide-item fade">
+      <img src="http://source.unsplash.com/1600x900/?nature" alt="people">
+      <div class="text">Nature</div>
+    </div>
+    <div class="slide-item fade">
+      <img src="http://source.unsplash.com/1600x900/?cat" alt="people">
+      <div class="text">Cat</div>
+    </div>
+    <div class="slide-item fade">
+      <img src="http://source.unsplash.com/1600x900/?flight" alt="people">
+      <div class="text">Flight</div>
+    </div>
+    <div class="slide-item fade">
+      <img src="http://source.unsplash.com/1600x900/?sky" alt="people">
+      <div class="text">Sky</div>
+    </div>
+
+    <div class="next" onclick="nextSlide(1)">&#10095;</div>
+    <div class="previous" onclick="previousSlide(-1)">&#10094;</div>
+  </div>
+  
+  <div style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
