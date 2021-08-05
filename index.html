@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practices</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+      * {
+        font-family: "Quicksand";
+        margin: 0;
+        padding: 0;
+      }
+      .app {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(#f00, #f0f);
+      }
+      .title{
+        color: #fff;
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+      .note{
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+      }
+      .project-list li a{
+        /* text-decoration: none; */
+        color: #000;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <h2 class="title">CSS Practices</h2>
+      <p class="note">Make for fun by Huynh</p>
+
+      <div class="practices">
+        <ul class="project-list">
+          <!-- <li><a href="./Creative-Scroll-Bar-2nd/">Creative-Scroll-Bar-2nd</a></li> -->
+          <li><a href="./Scroll-Bar (By Online Tutorial)/">Scroll-Bar</a></li>
+          <li><a href="./Search-bar/">Search Bar</a></li>
+          <li><a href="./Glass-Card/">Glass Cards</a></li>
+          <li><a href="./Spinner/">Spinner</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
